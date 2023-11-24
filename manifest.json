@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "Readly",
+  "version": "1.0",
+
+  "description": "A screen reader for firefox.",
+  "icons": {
+    "48": "icons/icon48x.png"
+  },
+
+  "permissions": [
+    "webRequest",
+    "scripting",
+    "tabs"    
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "48" : "icons/icon48x.png"
+    },
+
+    "default_title": "Readly",
+    "default_popup": "popup/index.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mafee-readly@github.com"
+    }
+  }
+
+}
